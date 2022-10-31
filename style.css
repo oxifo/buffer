@@ -1,0 +1,117 @@
+*{
+  padding:0;
+  margin:0;
+  background:#2D2D2D;
+}
+#toolbar{
+  width:50px;
+  height:50px;
+  background:#778EFF;
+  display:block;
+  border-radius:60px;
+  position:fixed;
+  bottom:10px;
+  left:85%;
+  transform:rotate(50deg)
+}
+content{
+  display:block;
+  width:100%;
+  height:100%;
+  color:white;
+  font-weight:600;
+  font-family:Times New Roman;
+  font-size:24px
+}
+search{
+  display:block;
+  width:22px;
+  height:22px;
+  border-radius:22px;
+  border:1.2px solid white;
+  margin:5px auto;
+  background:transparent;
+}
+search::after{
+  content:"";
+  position:absolute;
+  width:1.2px;
+  border:none;
+  height:18px;
+  bottom:2px;
+  background:white;
+  left:48%;
+}
+logo{
+  width:97%;
+  box-shadow:0px 0px 5px #76A6FF;
+  display:block;
+  margin:10px auto;
+  border-radius:5px;
+}
+logo img{
+  width:100%;
+}
+#data{
+  width:100%;
+ height:100%;
+ display:block;
+ position:relative;
+}
+tag{
+  font-family:Times 'Times New Roman', Times, serif;
+  position:absolute;
+  top:-35px;
+  background:transparent;
+  left:10px;
+}
+post{
+  width:98%;
+  height:fit-content;
+  box-shadow:0px 0px 5px #6FA1FF;
+  display:block;
+  margin:10px auto;
+  color:#6FA1FF;
+  border-radius:5px;
+  padding:5px;
+  box-sizing:border-box;
+  user-select:none;
+}
+post embed,post img{
+  width:100%;
+  height:auto;
+}
+post tt{
+  font-size:18px
+}
+post p{
+  font-size:15px;
+  color:white;
+  font-weight:350;
+}
+post p:after{
+  content:" .........."
+}
+post:after{
+  content:"ဖတ်ရှုရန်";
+  padding:10px;
+  background:#2A0325;
+  color:white;
+  font-weight:300;
+  border-radius:5px;
+  margin-left:75%;
+  font-size:15px;
+}
+hr{
+  border-color:#717979
+}
+footer{
+  display:block;
+  width:fit-content;
+  height:fit-content;
+  padding:20px;
+  margin:20px auto;
+  background:transparent;
+  border:2px solid darkblue;
+  border-radius:5px;
+}
